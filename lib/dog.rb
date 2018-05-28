@@ -6,6 +6,6 @@ class Dog
     @@dog<<name
   end
   def self.all
-    @@dog
+    @@dog=all
   end
 end
