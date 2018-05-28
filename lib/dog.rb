@@ -1,6 +1,6 @@
 class Dog
-  attr_accessor :name
   @@dog=[]
+  attr_accessor :name
   def initialize(name)
     @name=name
     @@dog<<name
